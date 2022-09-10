@@ -42,7 +42,7 @@ function grid() {
           <button className="button-19" > Contact </button>
           </Row>
         </Row>
-        <a href="mailto:patrikybrito@gmail.com"><img className="arrow" src={arrow} alt="..." /></a>
+        <a href="#grid2"><img className="arrow" src={arrow} alt="..." /></a>
       </Container>
       </Container>
   

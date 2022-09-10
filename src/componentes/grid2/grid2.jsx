@@ -18,13 +18,13 @@ function grid2() {
             </div>
             <div className="contentBx">
               <h3>
-                Lion Happy Birthday
+                Home
               </h3>
             </div>
           </div>
           <ul className="sci">
             <li>
-              <a className="a1"href="#ppp">happy</a>
+            <button id="grid2" className="button-19" > Contact </button>
             </li>
 
           </ul>
@@ -32,17 +32,17 @@ function grid2() {
         <div className="card">
           <div className="content">
             <div className="imgBx">
-              <img src={card2} alt="..." />
+              <img src={card2} alt="..."/>
             </div>
             <div className="contentBx">
               <h3>
-                FrogHappy Birthday
+              company
               </h3>
             </div>
           </div>
           <ul className="sci">
             <li>
-              <a className="a1" href="#ppp">happy</a>
+            <button className="button-19" > Contact </button>
             </li>
 
           </ul>
@@ -54,13 +54,13 @@ function grid2() {
             </div>
             <div className="contentBx">
               <h3>
-                GiraffeHappy Birthday
+              industry
               </h3>
             </div>
           </div>
           <ul className="sci">
             <li>
-              <a className="a1" href="#ppp">happy</a>
+            <button className="button-19" > Contact </button>
             </li>
 
           </ul>
