@@ -1,0 +1,125 @@
+
+.bg{
+background-image:url(./imagens/fundo1.png);
+background-size: cover;
+width: 100%!important;
+height: 100vh!important;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.logo{
+  margin-top: 2%;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin-left: 10%;
+  
+  
+}
+
+
+.navbar{
+
+text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 20%;
+color: #FFFFFF;
+
+}
+.navbarx{
+  margin-top: 3%;
+  margin-left: 50%;
+  font-size: 20px;  
+}
+
+.navbarx :hover{
+  color: #375d6e;
+
+}
+.intro{
+  margin-left: 10%;
+  color:#FFFFFF;
+  text-shadow: 1px 1px 2px black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40PX;
+  margin-top: 10%;
+}
+.intro2{
+ font-size: 20px; 
+
+ 
+}
+
+
+.button-19 {
+  
+
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.arrow{
+  margin-top: 15%;
+  height: 80px;
+  width: 80px;
+  margin-left: 50%;
+ 
+
+}
+

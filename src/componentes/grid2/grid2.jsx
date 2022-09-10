@@ -1,13 +1,20 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import "./grid2.css";
+import card1 from "../imagens/card1.png"
+import card2 from "../imagens/card2.png"
+import card3 from "../imagens/card3.png"
 function grid2() {
   return (
     <>
-      <div className="container">
+<Container className="bg2">
+    <h3 className="text2">Your top services</h3>
+      <div className="container1 ">
+        
         <div className="card">
           <div className="content">
             <div className="imgBx">
-              <img src="https://image.flaticon.com/icons/png/256/4213/4213732.png" />
+              <img src={card1} alt="..." />
             </div>
             <div className="contentBx">
               <h3>
@@ -17,20 +24,15 @@ function grid2() {
           </div>
           <ul className="sci">
             <li>
-              <a href="">happy</a>
+              <a className="a1"href="#ppp">happy</a>
             </li>
-            <li>
-              <a href="">birth</a>
-            </li>
-            <li>
-              <a href="">day</a>
-            </li>
+
           </ul>
         </div>
         <div className="card">
           <div className="content">
             <div className="imgBx">
-              <img src="https://image.flaticon.com/icons/png/256/4213/4213736.png" />
+              <img src={card2} alt="..." />
             </div>
             <div className="contentBx">
               <h3>
@@ -40,20 +42,15 @@ function grid2() {
           </div>
           <ul className="sci">
             <li>
-              <a href="">happy</a>
+              <a className="a1" href="#ppp">happy</a>
             </li>
-            <li>
-              <a href="">birth</a>
-            </li>
-            <li>
-              <a href="">day</a>
-            </li>
+
           </ul>
         </div>
         <div className="card">
           <div className="content">
             <div className="imgBx">
-              <img src="https://image.flaticon.com/icons/png/256/4213/4213641.png" />
+              <img src={card3} alt="..."/>
             </div>
             <div className="contentBx">
               <h3>
@@ -63,17 +60,13 @@ function grid2() {
           </div>
           <ul className="sci">
             <li>
-              <a href="">happy</a>
+              <a className="a1" href="#ppp">happy</a>
             </li>
-            <li>
-              <a href="">birth</a>
-            </li>
-            <li>
-              <a href="">day</a>
-            </li>
+
           </ul>
         </div>
       </div>
+    </Container>
     </>
   );
 }
