@@ -12,15 +12,15 @@ function grid() {
     <img id="grid" className="logo" src={logo} alt="..." />
       
         <Row className="navbarx">
-          <a className="navbar" href="#grid2">
+          <a className="navbar btnav" href="#grid2">
             {" "}
             Packpages{" "}
           </a>
-          <a  className="navbar" href="#packpages">
+          <a  className="navbar btnav" href="#packpages">
             {" "}
             Contact{" "}
           </a>
-          <a className="navbar" href="#packpages">
+          <a className="navbar btnav" href="#packpages">
             {" "}
             sac{" "}
           </a>
