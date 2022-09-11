@@ -8,7 +8,7 @@ function grid2() {
   return (
     <>
 <Container className="bg2">
-    <h3 className="text2">Your top services</h3>
+    <h3 id="grid2" className="text2">Your top services</h3>
       <div className="container1 ">
         
         <div className="card">
@@ -17,14 +17,14 @@ function grid2() {
               <img src={card1} alt="..." />
             </div>
             <div className="contentBx">
-              <h3>
+              <h3 >
                 Home
               </h3>
             </div>
           </div>
           <ul className="sci">
             <li>
-            <button id="grid2" className="button-19" > Contact </button>
+            <button  className="button-19" > Contact </button>
             </li>
 
           </ul>

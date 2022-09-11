@@ -1,4 +1,6 @@
-
+*{
+  font-family: arial;
+}
 .bg{
 background-image:url(./imagens/fundo1.png);
 background-size: cover;
@@ -40,7 +42,7 @@ padding-right: 10px;
 
 .navbarx :hover{
   color: #ffffff;
-  border: 3px solid #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 100px;
 
 
