@@ -11,13 +11,37 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 680px) {
+  .bg{
+    background-size:450px 800px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+  } }
+
 .logo {
   margin-top: 2%;
   width: 80px;
   height: 80px;
   position: absolute;
   margin-left: 10%;
+  
 }
+@media screen and (max-width: 680px) {
+  .logo{
+    margin-top: 2%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 10%;
+
+    
+
+  } }
+
 
 .navbar {
   background: transparent;
@@ -37,6 +61,15 @@
   padding-right: 10px;
   margin-left: 15%;
 }
+@media screen and (max-width: 680px) {
+  .navbar{
+    position: relative;
+    font-size: 15px;
+    margin: 1%;
+    padding: 0;
+    text-shadow: 1px 1px 2px black;
+    
+  } }
 
 .navbar:hover {
   color: #3bd9d9;
@@ -61,15 +94,44 @@
   font-size: 40px;
   margin-top: 10%;
 }
+@media screen and (max-width: 680px) {
+  .intro{
+    margin-left: 10%;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+    font-family: arial;
+    font-size: 30px;
+    margin-top: 35%;
+} }
 .intro2 {
   font-size: 20px;
 }
+@media screen and (max-width: 680px) {
+  .intro2{
+    
+    margin-right: 5%;
+    text-align: justify;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+    font-family: arial;
+    font-size: 15px;
+    
+} }
 
 .arrow {
   margin-top: 15%;
   height: 50px;
   width: 50px;
 }
+
+@media screen and (max-width: 680px) {
+  .arrow{
+    margin-top: 25%;
+    height: 50px;
+    width: 50px;
+} }
+
+
 .button1 {
   color: black;
 }

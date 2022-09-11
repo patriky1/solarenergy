@@ -1,145 +1,219 @@
-.bg2{
-	background-image:url(../imagens/fundo2.png);
-	background-size: cover;
-	
-	width: 100%!important;
-	height: 100vh!important;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	}
-	
+.bg2 {
+  background-image: url(../imagens/fundo2.png);
+  background-size: cover;
 
+  width: 100% !important;
+  height: 100vh !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+@media screen and (max-width: 680px) {
+  .bg2 {
+    background-size:450px 800px;
+	background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 
-.text2{
-	margin-left: 42%;
-	margin-top: 10%;
-	font-size: 30px;
-	color: white;
-	text-shadow: 1px 1px 1px black;
-	
-	text-transform: uppercase;
+  }
 }
 
+.text2 {
+  margin-left: 42%;
+  margin-top: 10%;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+
+  text-transform: uppercase;
+}
+@media screen and (max-width: 680px) {
+	.text2 {
+		margin-left: 32%;
+		margin-top: -1%;
+		font-size: 30px;
+		color: white;
+		text-shadow: 1px 1px 1px black;
+  
+	}
+  }
 
 .container1 {
-	position: relative;
-	z-index: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	margin: 40px 0;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
 }
 
 .container1 .card {
-	position: relative;
-	width: 300px;
-	height: 400px;
-	background: rgba(255, 255, 255, 0.05);
-	margin: 20px;
-	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-	border-radius: 15px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	backdrop-filter: blur(10px);
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.05);
+  margin: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
 }
-
+@media screen and (max-width: 680px) {
+	.container1 .card {
+		width: 300px;
+		height: 150px;
+		background: rgba(255, 255, 255, 0.05);
+		margin: 20px;
+		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+		border-radius: 15px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		backdrop-filter: blur(10px);
+		
+	}
+  }
 .container1 .card .content {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	transition: 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
 }
 
 .container1 .card:hover .content {
-	transform: translateY(-20px);
+  transform: translateY(-20px);
 }
 
 .container1 .card .content .imgBx {
-	position: relative;
-	width: 250px;
-	height: 200px;
-	overflow: hidden;
-	border-radius: 10%;
+  position: relative;
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10%;
 }
 
+@media screen and (max-width: 680px) {
+	.container1 .card .content .imgBx {
+		
+		width: 230px;
+		height: 120px;
+		background: rgba(255, 255, 255, 0.05);
+		margin: 20px;
+		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+		border-radius: 15px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		backdrop-filter: blur(10px);
+		
+	}
+  }
+
 .container1 .card .content .imgBx img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .container1 .card .content .contentBx h3 {
-	color: rgb(255, 255, 255);
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-weight: 500;
-	font-size: 18px;
-	text-align: center;
-	margin: 20px 0 10px;
-	line-height: 1.1em;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
 }
 
 .container1 .card .content .contentBx h3 span {
-	font-size: 12px;
-	font-weight: 300;
-	text-transform: initial;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: initial;
 }
 
+@media screen and (max-width: 680px) {
+	 h3 {
+		font-size: 12px;
+		font-weight: 200;
+		text-transform: initial;
+		text-shadow: 1px 1px 1px black;
+		
+
+		
+	}
+  }
+
 .container1 .card .sci {
-	position: absolute;
-	bottom: 50px;
-	display: flex;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
 }
 
 .container1 .card .sci li {
-	list-style: none;
-	
-	padding: 0;
-	transform: translateY(90px);
-	transition: 0.5s;
-	opacity: 0;
+  list-style: none;
+
+  padding: 0;
+  transform: translateY(90px);
+  transition: 0.5s;
+  opacity: 0;
 }
 
 .container1 .card:hover .sci li {
-	transform: translateY(20px);
-	opacity: 1;
+  transform: translateY(20px);
+  opacity: 1;
 }
 
 .container1 .card .sci li a {
-	color: rgb(0, 0, 0);
-	font-size: 20px;
-	text-decoration: none;
-
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-decoration: none;
 }
 
-.buttonall{
-	 background: linear-gradient(180deg, rgba(255, 255, 255, 0.28) 0%, rgba(217, 217, 217, 0) 185.63%);;
-	color: white;
-	text-shadow: 1px 1px 1px black;
-	margin-left: 44%;
-	margin-top: 1%;
+.buttonall {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(217, 217, 217, 0) 185.63%
+  );
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  margin-left: 44%;
+  margin-top: 1%;
 }
-.sci{
-	margin-left: -15%;
+@media screen and (max-width: 680px) {
+	.buttonall {
+		margin-left: 23%;
+		margin-top: -4%;
+   }
+ }
+
+ @media screen and (max-width: 680px) {
+	.container1 .card:hover .sci li {
+		transform: translateY(-30px);
+		opacity: 1;
+   }
+ }
+.sci {
+  margin-left: -15%;
 }
-.sac{
-    margin-top: 5%;
-    height: 40px;
-    width: 50px;
-    margin-left: 5%;
-   
-  
-  }
-  .textchat{
-	margin: 0;
-	padding: 0;
-	margin-left: 100px;
-  }
+.sac {
+  margin-top: 5%;
+  height: 40px;
+  width: 50px;
+  margin-left: 5%;
+}
+.textchat {
+  margin: 0;
+  padding: 0;
+  margin-left: 100px;
+}

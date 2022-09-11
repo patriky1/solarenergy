@@ -1,49 +1,116 @@
-.bg3{
-	background-image:url(../imagens/fundo3.png);
-	background-size: cover;
-	
-	width: 100%!important;
-	height: 100vh!important;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	}
-.arrow2{
+.bg3 {
+  background-image: url(../imagens/fundo3.png);
+  background-size: cover;
+
+  width: 100% !important;
+  height: 100vh !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 680px) {
+  .bg3 {
+    background-size: 450px 800px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+}
+
+.arrow2 {
   margin-top: 5%;
   height: 40px;
   width: 50px;
   margin-left: 90%;
- 
-
 }
 
-.text3{
-    font-family: Arial;
-    margin-top: 4%;
-    margin-left: 68%;
-    color: white;
-    font-size: 30px;
-    text-shadow: 1px 1px 2px black;
-}
-.text4{
-    font-size: 20px;
-    font-family: Arial;
-    margin-top: 0;
-    margin-left: 55%;
-    color: white;
-    justify-content: center;
-    text-align: justify-all;
-    padding: 4px;
-    line-height: 140%;
-    text-shadow: 1px 1px 2px black;
-}
-.text5{
-    margin-top: 2%;
-    margin-left: 3%;
-    color: white;
-}
-.btnfinal{
-    margin-left: 70%;
-    box-shadow: 20px;
+@media screen and (max-width: 680px) {
+    .arrow2 {
+        margin-top: 5%;
+        height: 40px;
+        width: 50px;
+        margin-left: 80%;
+
+    }
+  }
+
+.text3 {
+  font-family: Arial;
+  margin-top: 4%;
+  margin-left: 68%;
+  color: white;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
 }
 
+@media screen and (max-width: 680px) {
+    .text3 {
+        font-family: Arial;
+        margin-top: 4%;
+        margin-left: 35%;
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 1px 2px black;
+
+    }
+  }
+.text4 {
+  font-size: 20px;
+  font-family: Arial;
+  margin-top: 0;
+  margin-left: 55%;
+  color: white;
+  justify-content: center;
+  text-align: justify-all;
+  padding: 4px;
+  line-height: 140%;
+  text-shadow: 1px 1px 2px black;
+}
+
+@media screen and (max-width: 680px) {
+    .text4 {
+        font-size: 12px;
+        font-family: Arial;
+        margin-top: 0;
+        margin-left: 2%;
+        color: white;
+        justify-content: center;
+        text-align: justify-all;
+        padding: 4px;
+        line-height: 140%;
+        text-shadow: 1px 1px 2px black;
+    }
+  }
+
+
+
+.text5 {
+  margin-top: 2%;
+  margin-left: 3%;
+  color: white;
+}
+@media screen and (max-width: 680px) {
+    .text5 {
+        margin-top: 20%;
+        margin-left: 3%;
+
+    }
+  }
+
+
+
+
+
+.btnfinal {
+  margin-left: 70%;
+  box-shadow: 20px;
+}
+@media screen and (max-width: 680px) {
+    .btnfinal {
+        margin-left: 30%;
+        margin-top: 20%;
+
+    }
+  }
