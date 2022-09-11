@@ -1,5 +1,6 @@
 import "../grid3/grid3.css";
 import arrow1 from "../imagens/arrow2.gif";
+// import arrow from "./imagens/sac.";
 
 
 import React from "react";
@@ -43,6 +44,9 @@ function grid3() {
         generated Lorem Ipsum is therefore always free from repetition, injected<br></br>
         humour, or non-characteristic words etc.
       </h4>
+
+
+      <button className="button-19 btnfinal"> View More </button>
       <p  className="text5" > © all rights reserved, 2022.</p>
     </Container>
 

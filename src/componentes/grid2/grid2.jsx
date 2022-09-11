@@ -1,9 +1,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "./grid2.css";
+
 import card1 from "../imagens/card1.png"
 import card2 from "../imagens/card2.png"
 import card3 from "../imagens/card3.png"
+import sac from "../imagens/sac.gif"
 function grid2() {
   return (
     <>
@@ -66,8 +68,12 @@ function grid2() {
           </ul>
           
         </div>
+        
       </div>
-      <button className="button-19 buttonall"  > View all Services </button>
+      <div><button className="buttonall"  > View all Services </button></div>
+        <a href="#chat"><img className="sac" src={sac} alt="..." /></a>
+        <p className="textchat">Chat</p>
+      
     </Container>
     </>
   );

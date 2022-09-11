@@ -77,7 +77,7 @@
 }
 
 .container1 .card .content .contentBx h3 {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 500;
@@ -101,7 +101,7 @@
 
 .container1 .card .sci li {
 	list-style: none;
-	margin-left: -20% ;
+	
 	padding: 0;
 	transform: translateY(90px);
 	transition: 0.5s;
@@ -121,5 +121,25 @@
 }
 
 .buttonall{
-	margin-left: 45%;
+	 background: linear-gradient(180deg, rgba(255, 255, 255, 0.28) 0%, rgba(217, 217, 217, 0) 185.63%);;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	margin-left: 44%;
+	margin-top: 1%;
 }
+.sci{
+	margin-left: -15%;
+}
+.sac{
+    margin-top: 5%;
+    height: 40px;
+    width: 50px;
+    margin-left: 5%;
+   
+  
+  }
+  .textchat{
+	margin: 0;
+	padding: 0;
+	margin-left: 100px;
+  }

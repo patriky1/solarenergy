@@ -38,7 +38,12 @@
     text-shadow: 1px 1px 2px black;
 }
 .text5{
-    margin-top: 7%;
+    margin-top: 2%;
     margin-left: 3%;
     color: white;
 }
+.btnfinal{
+    margin-left: 70%;
+    box-shadow: 20px;
+}
+

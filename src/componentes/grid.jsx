@@ -39,7 +39,7 @@ function grid() {
           </h6>
           
           <Row>
-          <button className="button-19" > Contact </button>
+          <button className="button1" > Contact </button>
           </Row>
         </Row>
         <a href="#grid2"><img className="arrow" src={arrow} alt="..." /></a>
