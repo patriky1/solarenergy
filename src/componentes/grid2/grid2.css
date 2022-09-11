@@ -10,7 +10,7 @@
 }
 @media screen and (max-width: 680px) {
   .bg2 {
-    background-size:450px 800px;
+    background-size:450px 100%;
 	background-repeat: no-repeat;
     margin: 0;
     padding: 0;
