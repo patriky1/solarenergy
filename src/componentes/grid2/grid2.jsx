@@ -64,8 +64,10 @@ function grid2() {
             </li>
 
           </ul>
+          
         </div>
       </div>
+      <button className="button-19 buttonall"  > View all Services </button>
     </Container>
     </>
   );

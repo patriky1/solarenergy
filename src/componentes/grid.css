@@ -21,28 +21,35 @@ overflow: hidden;
 
 
 .navbar{
-
+  text-shadow: 1px 1px 2px black;
 text-decoration: none;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin-left: 20%;
+font-family:arial;
+margin-left: 15%;
 color: #FFFFFF;
+font-size: 25px;
+padding-left: 10px;
+padding-right: 10px;
 
 }
 .navbarx{
   margin-top: 3%;
   margin-left: 50%;
-  font-size: 20px;  
+  font-size: 20px;
+    
 }
 
 .navbarx :hover{
-  color: #375d6e;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 100px;
+
 
 }
 .intro{
   margin-left: 10%;
   color:#FFFFFF;
   text-shadow: 1px 1px 2px black;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:arial;
   font-size: 40PX;
   margin-top: 10%;
 }
@@ -57,7 +64,7 @@ color: #FFFFFF;
   
 
   appearance: button;
-  background-color: #1899D6;
+  background-color: #2958D3;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
@@ -88,7 +95,7 @@ color: #FFFFFF;
 
 .button-19:after {
   background-clip: padding-box;
-  background-color: #1CB0F6;
+  background-color: #2958D3;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
@@ -116,8 +123,8 @@ color: #FFFFFF;
 
 .arrow{
   margin-top: 15%;
-  height: 80px;
-  width: 80px;
+  height: 40px;
+  width: 50px;
  
 
 }

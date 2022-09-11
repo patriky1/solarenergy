@@ -12,7 +12,7 @@ function grid() {
     <img className="logo" src={logo} alt="..." />
       
         <Row className="navbarx">
-          <a className="navbar" href="#packpages">
+          <a className="navbar" href="#grid2">
             {" "}
             Packpages{" "}
           </a>

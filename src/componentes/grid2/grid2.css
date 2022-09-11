@@ -1,6 +1,7 @@
 .bg2{
 	background-image:url(../imagens/fundo2.png);
 	background-size: cover;
+	
 	width: 100%!important;
 	height: 100vh!important;
 	margin: 0;
@@ -117,4 +118,8 @@
 	font-size: 20px;
 	text-decoration: none;
 
+}
+
+.buttonall{
+	margin-left: 45%;
 }
